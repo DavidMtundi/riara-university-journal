@@ -9,6 +9,7 @@ backups/
 test-run.log
 tmp-*.html
 tmp-styles.css
+volumes/scripts/cookies.txt
 
 volumes/config/pkp.config.inc.php
 
