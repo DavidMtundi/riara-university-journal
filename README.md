@@ -1,5 +1,7 @@
 # Docker for PKP
 
+> **Riara University deployment:** This fork runs OJS 3.5 for the Riara University journal with a custom theme, automated tests, and CI. See **[docs/RIARA.md](docs/RIARA.md)** for setup, credentials, testing, and production checklist.
+
 A docker image generator for PKP tools (aka. OJS, OMP, OPS).
 
 This project is a refactoring of previous projects, following the work plan outlined in "[pkpContainers: A Proposal for Unification](https://docs.google.com/document/d/1hl3c6PYQgOZWWtwHk2siBTUj3WC6fzrv9hCp7F1jDGQ/edit?usp=sharing)".

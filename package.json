@@ -1,0 +1,13 @@
+{
+  "name": "ojs-riara-tests",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:php": "powershell -File run-tests.ps1",
+    "test:all": "powershell -File run-tests.ps1 -Playwright",
+    "test:full": "powershell -File run-tests.ps1 -Playwright"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.54.1"
+  }
+}

@@ -196,7 +196,7 @@ COPY "volumes/config/apache.pkp.conf" "${PKP_WEB_CONF}"
 # - Add pkp-run-sheduled to crontab
 # - Set certificates
 # - Create container.version file
-RUN a2enmod rewrite ssl && \
+RUN a2enmod rewrite ssl expires headers && \
     mkdir -p /etc/ssl/apache2 "${WWW_PATH_ROOT}/files" /run/apache2 && \
     \
     echo "log_errors = On" >> /usr/local/etc/php/conf.d/log-errors.ini && \

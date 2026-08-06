@@ -1,0 +1,10 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Language: en\n"
+
+msgid "plugins.generic.riaraworkflownotifications.displayName"
+msgstr "Riara Workflow Email Notifications"
+
+msgid "plugins.generic.riaraworkflownotifications.description"
+msgstr "Automatically sends feedback emails to authors when manuscripts are submitted and when editorial decisions move them between workflow stages."

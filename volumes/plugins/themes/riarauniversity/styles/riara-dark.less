@@ -1,0 +1,341 @@
+/**
+ * Riara University — dark mode overrides.
+ * Active when html[data-theme="dark"] or system prefers dark (unless data-theme="light").
+ */
+
+@dark-bg: #12100e;
+@dark-surface: #1c1916;
+@dark-surface-raised: #252119;
+@dark-ink: #f5f0e8;
+@dark-ink-soft: #d4cdc3;
+@dark-muted: #9a9289;
+@dark-line: rgba(255, 255, 255, 0.08);
+@dark-shadow: 0 16px 48px rgba(0, 0, 0, 0.35);
+
+.dark-mode-rules() {
+	color-scheme: dark;
+
+	body,
+	.pkp_structure_page {
+		background: @dark-bg;
+		color: @dark-ink;
+	}
+
+	::selection {
+		background: fade(@riara-accent, 28%);
+		color: @dark-ink;
+	}
+
+	.pkp_structure_head,
+	.pkp_head_wrapper {
+		background: @dark-surface;
+		border-color: @dark-line;
+	}
+
+	.pkp_site_name .is_text,
+	.pkp_navigation_primary a,
+	.pkp_navigation_user a {
+		color: @dark-ink;
+
+		&:hover {
+			color: fade(@riara-accent, 92%);
+		}
+	}
+
+	.pkp_navigation_primary_row {
+		background: @dark-surface-raised;
+		border-color: @dark-line;
+	}
+
+	.riara-brand-bar {
+		background: darken(@riara-primary-deep, 6%);
+	}
+
+	.riara-page__header,
+	.riara-page__panel,
+	.riara-about__body,
+	.riara-magazine__body,
+	.riara-announcement-card,
+	.riara-site-journal-card,
+	.riara-bento__cell,
+	.riara-pathway__step,
+	.riara-impact,
+	.riara-trust__inner,
+	.obj_article_summary,
+	.riara-metrics__card,
+	.riara-search-advanced,
+	.riara-issue-hero,
+	.entry_details {
+		background: @dark-surface;
+		border-color: @dark-line;
+		box-shadow: @dark-shadow;
+		color: @dark-ink-soft;
+	}
+
+	.riara-section__title,
+	.riara-page__header h1,
+	.riara-pathway__title,
+	.riara-pathway__step-title,
+	.riara-announcement-card__title a,
+	.obj_article_summary .title a,
+	h1, h2, h3, h4 {
+		color: @dark-ink;
+	}
+
+	.riara-kicker,
+	.riara-muted,
+	.riara-prose,
+	.cmp_breadcrumbs,
+	.riara-announcement-card__summary,
+	.riara-site-journal-card__description {
+		color: @dark-muted;
+	}
+
+	.riara-home .riara-about.homepage_about,
+	.riara-home .riara-magazine.current_issue {
+		background: linear-gradient(180deg, fade(@dark-surface, 80%) 0%, @dark-bg 100%);
+		border-color: @dark-line;
+	}
+
+	.riara-search {
+		background: @dark-surface-raised;
+		border-color: @dark-line;
+
+		&__input {
+			color: @dark-ink;
+		}
+	}
+
+	.pkp_structure_head .pkp_search_desktop {
+		background: fade(#fff, 8%);
+		border-color: fade(#fff, 22%);
+		color: fade(#fff, 90%);
+	}
+
+	.pkp_page_index .pkp_structure_head .pkp_search_desktop {
+		background: @dark-surface-raised;
+		border-color: @dark-line;
+		color: @dark-ink-soft;
+	}
+
+	.riara-chip {
+		background: @dark-surface-raised;
+		border-color: @dark-line;
+		color: @dark-ink-soft;
+	}
+
+	.riara-hero__float-card {
+		background: @dark-surface;
+		border-color: @dark-line;
+		color: @dark-ink-soft;
+
+		strong {
+			color: @dark-ink;
+		}
+	}
+
+	.riara-footer,
+	.pkp_structure_footer_wrapper {
+		background: darken(@dark-bg, 2%);
+		border-color: @dark-line;
+	}
+
+	.riara-footer__logo,
+	.riara-footer__heading,
+	.riara-footer__links a {
+		color: @dark-ink;
+	}
+
+	.riara-theme-toggle {
+		background: @dark-surface-raised;
+		border-color: @dark-line;
+		color: @dark-ink;
+	}
+
+	.riara-btn--outline,
+	.riara-btn--ghost {
+		border-color: fade(@dark-ink, 18%);
+		color: @dark-ink;
+
+		&:hover {
+			background: fade(@dark-ink, 6%);
+		}
+	}
+
+	.riara-issue-card,
+	.riara-pagination__btn {
+		background: @dark-surface;
+		border-color: @dark-line;
+		color: @dark-ink-soft;
+	}
+
+	.riara-pagination__status {
+		background: fade(@riara-primary, 14%);
+		color: @dark-ink-soft;
+	}
+
+	.riara-issue-card__title .title {
+		color: @dark-ink;
+	}
+
+	.riara-trust__badge--static {
+		opacity: 0.92;
+	}
+
+	.riara-about-nav,
+	.riara-announcement-article__body {
+		background: @dark-surface;
+		border-color: @dark-line;
+	}
+
+	.riara-about-nav__link {
+		color: @dark-ink-soft;
+
+		&:hover {
+			background: fade(@dark-ink, 6%);
+			color: @dark-ink;
+		}
+
+		&.is-active {
+			background: fade(@riara-primary, 18%);
+			color: @dark-ink;
+		}
+	}
+
+	.riara-auth__main {
+		background: linear-gradient(180deg, @dark-bg 0%, @dark-surface 100%);
+	}
+
+	.riara-auth__form-card {
+		background: @dark-surface;
+		border-color: @dark-line;
+		box-shadow: @dark-shadow;
+	}
+
+	.riara-auth__form-header h1,
+	.riara-auth__journal {
+		color: @dark-ink;
+	}
+
+	.riara-auth__subtitle,
+	.riara-auth__register,
+	.riara-auth__required {
+		color: @dark-muted;
+	}
+
+	.riara-field__input {
+		background: @dark-surface-raised;
+		border-color: @dark-line;
+		color: @dark-ink;
+
+		&:focus {
+			background: @dark-surface-raised;
+			border-color: fade(@riara-accent, 45%);
+		}
+	}
+
+	.riara-field__label,
+	.riara-field__checkbox-label {
+		color: @dark-ink-soft;
+	}
+
+	.riara-field__checkbox-box {
+		background: @dark-surface-raised;
+		border-color: @dark-line;
+	}
+
+	.riara-btn--google {
+		background: @dark-surface-raised;
+		border-color: @dark-line;
+		color: @dark-ink;
+	}
+
+	.riara-auth__help {
+		background: fade(@riara-primary, 14%);
+		border-color: fade(@riara-primary, 22%);
+	}
+
+	.riara-auth__help p,
+	.riara-auth__section-title,
+	.riara-auth__back-link {
+		color: @dark-ink-soft;
+	}
+
+	.riara-auth__trust {
+		border-color: @dark-line;
+
+		li {
+			color: @dark-muted;
+		}
+	}
+
+	.riara-site-hero__preview {
+		background: @dark-surface;
+		border-color: @dark-line;
+	}
+
+	.riara-site-hero__preview-title {
+		color: @dark-ink;
+	}
+
+	.riara-site-hero__preview-link {
+		color: @dark-muted;
+	}
+
+	.riara-auth__step {
+		background: fade(#fff, 5%);
+		border-color: fade(#fff, 8%);
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	html:not([data-theme="light"]) {
+		.dark-mode-rules();
+	}
+}
+
+html[data-theme="dark"] {
+	.dark-mode-rules();
+}
+
+// Theme toggle control
+.riara-theme-toggle {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 2.35rem;
+	height: 2.35rem;
+	margin-right: 0.5rem;
+	padding: 0;
+	border: 1px solid @riara-line;
+	border-radius: 50%;
+	background: @riara-paper;
+	color: @riara-ink-soft;
+	cursor: pointer;
+	transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+
+	&:hover {
+		border-color: fade(@riara-primary, 20%);
+		transform: translateY(-1px);
+	}
+
+	&__icon--moon {
+		display: none;
+	}
+
+	&[aria-pressed="true"] {
+		.riara-theme-toggle__icon--sun {
+			display: none;
+		}
+
+		.riara-theme-toggle__icon--moon {
+			display: inline;
+		}
+	}
+}
+
+.pkp_navigation_search_wrapper {
+	display: flex;
+	align-items: center;
+	gap: 0.35rem;
+}

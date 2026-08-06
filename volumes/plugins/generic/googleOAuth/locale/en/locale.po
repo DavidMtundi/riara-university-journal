@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Language: en\n"
+
+msgid "plugins.generic.googleOAuth.displayName"
+msgstr "Riara Google Sign-In"
+
+msgid "plugins.generic.googleOAuth.description"
+msgstr "Adds Sign in with Google for Riara University staff and students, with domain-based role assignment and optional internal-only submissions."
+
+msgid "plugins.generic.googleOAuth.signInWithGoogle"
+msgstr "Sign in with Google"
+
+msgid "plugins.generic.googleOAuth.orContinueWith"
+msgstr "or continue with username and password"
+
+msgid "plugins.generic.googleOAuth.settings.description"
+msgstr "Configure a Google Cloud OAuth 2.0 Web client for this journal. Add the redirect URI below to your Google Cloud console authorized redirect URIs."
+
+msgid "plugins.generic.googleOAuth.settings.redirectUri"
+msgstr "Authorized redirect URI"
+
+msgid "plugins.generic.googleOAuth.settings.clientId"
+msgstr "Google Client ID"
+
+msgid "plugins.generic.googleOAuth.settings.clientSecret"
+msgstr "Google Client Secret"
+
+msgid "plugins.generic.googleOAuth.settings.clientIdRequired"
+msgstr "A Google Client ID is required."
+
+msgid "plugins.generic.googleOAuth.settings.clientSecretRequired"
+msgstr "A Google Client Secret is required."
+
+msgid "plugins.generic.googleOAuth.settings.studentUserGroup"
+msgstr "Student user group (@stu.riarauniversity.ac.ke)"
+
+msgid "plugins.generic.googleOAuth.settings.staffUserGroup"
+msgstr "Staff user group (@riarauniversity.ac.ke)"
+
+msgid "plugins.generic.googleOAuth.settings.restrictSubmissions"
+msgstr "Restrict new submissions to Riara University Google accounts only"
+
+msgid "plugins.generic.googleOAuth.error.denied"
+msgstr "Google sign-in was cancelled or denied."
+
+msgid "plugins.generic.googleOAuth.error.invalidState"
+msgstr "Google sign-in could not be verified. Please try again."
+
+msgid "plugins.generic.googleOAuth.error.misconfigured"
+msgstr "Google sign-in is not configured for this journal."
+
+msgid "plugins.generic.googleOAuth.error.missingCode"
+msgstr "Google did not return an authorization code."
+
+msgid "plugins.generic.googleOAuth.error.tokenExchange"
+msgstr "Could not complete Google sign-in (token exchange failed)."
+
+msgid "plugins.generic.googleOAuth.error.userinfo"
+msgstr "Could not retrieve your Google profile."
+
+msgid "plugins.generic.googleOAuth.error.emailNotVerified"
+msgstr "Your Google account email is not verified."
+
+msgid "plugins.generic.googleOAuth.error.missingEmail"
+msgstr "Your Google account did not provide an email address."
+
+msgid "plugins.generic.googleOAuth.error.loginFailed"
+msgstr "Google sign-in failed. Please contact the journal administrator."
+
+msgid "plugins.generic.googleOAuth.error.submissionRestricted"
+msgstr "Only Riara University staff and student accounts can submit to this journal."

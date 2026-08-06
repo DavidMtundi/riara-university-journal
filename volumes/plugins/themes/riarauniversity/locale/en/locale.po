@@ -1,0 +1,470 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "plugins.themes.riarauniversity.name"
+msgstr "Riara University"
+
+msgid "plugins.themes.riarauniversity.description"
+msgstr "Official scholarly publishing theme for Riara University journals."
+
+msgid "plugins.themes.riarauniversity.brand.name"
+msgstr "Riara University Journal"
+
+msgid "plugins.themes.riarauniversity.brandBar"
+msgstr "Riara University · Scholarly Publishing"
+
+msgid "plugins.themes.riarauniversity.site.kicker"
+msgstr "Riara University Publishing"
+
+msgid "plugins.themes.riarauniversity.site.hubTitle"
+msgstr "Riara University Journals"
+
+msgid "plugins.themes.riarauniversity.site.hubText"
+msgstr "Explore faculty and university journals published on our open scholarly platform."
+
+msgid "plugins.themes.riarauniversity.site.journalsHeading"
+msgstr "Our journals"
+
+msgid "plugins.themes.riarauniversity.site.browseJournals"
+msgstr "Browse journals"
+
+msgid "plugins.themes.riarauniversity.site.asideLabel"
+msgstr "Featured journals preview"
+
+msgid "plugins.themes.riarauniversity.site.previewKicker"
+msgstr "Journal"
+
+msgid "plugins.themes.riarauniversity.site.statsLabel"
+msgstr "Publishing network statistics"
+
+msgid "plugins.themes.riarauniversity.site.stats.journals"
+msgstr "Active journals"
+
+msgid "plugins.themes.riarauniversity.site.catalogKicker"
+msgstr "Faculty & university titles"
+
+msgid "plugins.themes.riarauniversity.site.catalogLead"
+msgstr "Choose a journal to read the latest issue, explore archives, or start a new submission."
+
+msgid "plugins.themes.riarauniversity.trust.ariaLabel"
+msgstr "Indexing and discovery"
+
+msgid "plugins.themes.riarauniversity.trust.label"
+msgstr "Indexed & discoverable"
+
+msgid "plugins.themes.riarauniversity.trust.openAccess"
+msgstr "Open Access"
+
+msgid "plugins.themes.riarauniversity.trust.peerReviewed"
+msgstr "Peer reviewed"
+
+msgid "plugins.themes.riarauniversity.trust.doi"
+msgstr "DOI registered"
+
+msgid "plugins.themes.riarauniversity.trust.scholar"
+msgstr "Google Scholar"
+
+msgid "plugins.themes.riarauniversity.trust.orcid"
+msgstr "ORCID ready"
+
+msgid "plugins.themes.riarauniversity.theme.toggle"
+msgstr "Toggle dark mode"
+
+msgid "plugins.themes.riarauniversity.theme.light"
+msgstr "Switch to light mode"
+
+msgid "plugins.themes.riarauniversity.theme.dark"
+msgstr "Switch to dark mode"
+
+msgid "plugins.themes.riarauniversity.magazine.viewIssue"
+msgstr "Read this issue"
+
+msgid "plugins.themes.riarauniversity.archive.viewIssue"
+msgstr "View issue"
+
+msgid "plugins.themes.riarauniversity.about.navTitle"
+msgstr "About the journal"
+
+msgid "plugins.themes.riarauniversity.announcements.empty"
+msgstr "No announcements have been published yet."
+
+msgid "plugins.themes.riarauniversity.pill.openAccess"
+msgstr "Open Access"
+
+msgid "plugins.themes.riarauniversity.pill.peerReviewed"
+msgstr "Peer Reviewed"
+
+msgid "plugins.themes.riarauniversity.pill.location"
+msgstr "Riara University · Nairobi"
+
+msgid "plugins.themes.riarauniversity.marquee.item1"
+msgstr "Rigorous peer review"
+
+msgid "plugins.themes.riarauniversity.marquee.item2"
+msgstr "Open to the world"
+
+msgid "plugins.themes.riarauniversity.marquee.item3"
+msgstr "African scholarship"
+
+msgid "plugins.themes.riarauniversity.marquee.item4"
+msgstr "Indexed & citable"
+
+msgid "plugins.themes.riarauniversity.marquee.item5"
+msgstr "Ethical publishing"
+
+msgid "plugins.themes.riarauniversity.hero.eyebrow"
+msgstr "Scholarly journal"
+
+msgid "plugins.themes.riarauniversity.hero.scrollHint"
+msgstr "Explore the journal"
+
+msgid "plugins.themes.riarauniversity.hero.searchLabel"
+msgstr "Discover research"
+
+msgid "plugins.themes.riarauniversity.hero.searchHint"
+msgstr "Search articles, authors, and keywords across the journal."
+
+msgid "plugins.themes.riarauniversity.hero.chip.education"
+msgstr "Education"
+
+msgid "plugins.themes.riarauniversity.hero.chip.policy"
+msgstr "Public policy"
+
+msgid "plugins.themes.riarauniversity.hero.chip.innovation"
+msgstr "Innovation"
+
+msgid "plugins.themes.riarauniversity.stats.published"
+msgstr "Published articles"
+
+msgid "plugins.themes.riarauniversity.stats.issues"
+msgstr "Journal issues"
+
+msgid "plugins.themes.riarauniversity.stats.access"
+msgstr "Open access"
+
+msgid "plugins.themes.riarauniversity.stats.review"
+msgstr "Double-blind review"
+
+msgid "plugins.themes.riarauniversity.float.focus"
+msgstr "Focus"
+
+msgid "plugins.themes.riarauniversity.float.focusValue"
+msgstr "Multidisciplinary Research"
+
+msgid "plugins.themes.riarauniversity.float.publisher"
+msgstr "Publisher"
+
+msgid "plugins.themes.riarauniversity.float.publisherValue"
+msgstr "Riara University"
+
+msgid "plugins.themes.riarauniversity.float.audience"
+msgstr "Audience"
+
+msgid "plugins.themes.riarauniversity.float.audienceValue"
+msgstr "Scholars · Policy · Practice"
+
+msgid "plugins.themes.riarauniversity.bento.heading"
+msgstr "Start here"
+
+msgid "plugins.themes.riarauniversity.bento.submissionsHint"
+msgstr "Author guidelines & submissions"
+
+msgid "plugins.themes.riarauniversity.pathway.kicker"
+msgstr "Publishing journey"
+
+msgid "plugins.themes.riarauniversity.pathway.title"
+msgstr "From manuscript to global readership"
+
+msgid "plugins.themes.riarauniversity.pathway.submit.title"
+msgstr "Submit"
+
+msgid "plugins.themes.riarauniversity.pathway.submit.text"
+msgstr "Authors upload manuscripts through the Riara University submissions portal with structured metadata."
+
+msgid "plugins.themes.riarauniversity.pathway.review.title"
+msgstr "Review"
+
+msgid "plugins.themes.riarauniversity.pathway.review.text"
+msgstr "Double-blind peer review by qualified scholars in your discipline."
+
+msgid "plugins.themes.riarauniversity.pathway.publish.title"
+msgstr "Publish"
+
+msgid "plugins.themes.riarauniversity.pathway.publish.text"
+msgstr "Accepted articles are published open access in a citable issue."
+
+msgid "plugins.themes.riarauniversity.highlights.title"
+msgstr "Featured research"
+
+msgid "plugins.themes.riarauniversity.cta.kicker"
+msgstr "For researchers"
+
+msgid "plugins.themes.riarauniversity.cta.title"
+msgstr "Share rigorous scholarship with a global audience"
+
+msgid "plugins.themes.riarauniversity.cta.text"
+msgstr "Join scholars across Africa and the world publishing open, peer-reviewed research with Riara University."
+
+msgid "plugins.themes.riarauniversity.footer.tagline"
+msgstr "A peer-reviewed scholarly platform advancing knowledge from Riara University to the world."
+
+msgid "plugins.themes.riarauniversity.footer.journal"
+msgstr "Journal"
+
+msgid "plugins.themes.riarauniversity.footer.contact"
+msgstr "Contact"
+
+msgid "plugins.themes.riarauniversity.footer.policies"
+msgstr "Journal policies"
+
+msgid "plugins.themes.riarauniversity.footer.indexing"
+msgstr "Indexing & discovery"
+
+msgid "plugins.themes.riarauniversity.footer.metrics"
+msgstr "Journal metrics"
+
+msgid "plugins.themes.riarauniversity.static.kicker"
+msgstr "Riara University Journal"
+
+msgid "plugins.themes.riarauniversity.metrics.heading"
+msgstr "Journal metrics"
+
+msgid "plugins.themes.riarauniversity.metrics.downloads"
+msgstr "Article views (all time)"
+
+msgid "plugins.themes.riarauniversity.metrics.authors"
+msgstr "Published authors"
+
+msgid "plugins.themes.riarauniversity.metrics.note"
+msgstr "Usage statistics are collected in accordance with COUNTER principles. Download counts reflect aggregated article views recorded by the journal platform."
+
+msgid "common.contact"
+msgstr "Contact"
+
+msgid "plugins.themes.riarauniversity.footer.location"
+msgstr "Nairobi, Kenya"
+
+msgid "plugins.themes.riarauniversity.auth.kicker"
+msgstr "Riara University Journal"
+
+msgid "plugins.themes.riarauniversity.auth.loginTitle"
+msgstr "Your scholarly workspace"
+
+msgid "plugins.themes.riarauniversity.auth.loginText"
+msgstr "Sign in to submit manuscripts, track reviews, and manage your author profile."
+
+msgid "plugins.themes.riarauniversity.auth.registerTitle"
+msgstr "Join the research community"
+
+msgid "plugins.themes.riarauniversity.auth.registerText"
+msgstr "Create an account to submit articles, volunteer as a reviewer, and receive journal updates."
+
+msgid "plugins.themes.riarauniversity.auth.lostPasswordTitle"
+msgstr "Reset your password"
+
+msgid "plugins.themes.riarauniversity.auth.lostPasswordText"
+msgstr "Enter the email address associated with your Riara University journal account and we will send reset instructions."
+
+msgid "plugins.themes.riarauniversity.auth.loginSubtitle"
+msgstr "Access your author dashboard, submissions, and review activity."
+
+msgid "plugins.themes.riarauniversity.auth.loginHighlight1"
+msgstr "Submit and track manuscripts"
+
+msgid "plugins.themes.riarauniversity.auth.loginHighlight2"
+msgstr "Manage your author profile"
+
+msgid "plugins.themes.riarauniversity.auth.loginShowcase"
+msgstr "Riara University Publishing"
+
+msgid "plugins.themes.riarauniversity.auth.backToJournal"
+msgstr "Back to journal home"
+
+msgid "plugins.themes.riarauniversity.auth.noAccount"
+msgstr "New to the journal?"
+
+msgid "plugins.themes.riarauniversity.auth.showPassword"
+msgstr "Show password"
+
+msgid "plugins.themes.riarauniversity.auth.hidePassword"
+msgstr "Hide password"
+
+msgid "plugins.themes.riarauniversity.auth.registerSubtitle"
+msgstr "Create your account in a few steps. Use Google for the fastest sign-up with your university email."
+
+msgid "plugins.themes.riarauniversity.auth.registerHighlight1"
+msgstr "Join Riara's research community"
+
+msgid "plugins.themes.riarauniversity.auth.registerHighlight2"
+msgstr "Submit manuscripts and track reviews"
+
+msgid "plugins.themes.riarauniversity.auth.registerHighlight3"
+msgstr "Volunteer as a peer reviewer"
+
+msgid "plugins.themes.riarauniversity.auth.registerPreferences"
+msgstr "Preferences & consent"
+
+msgid "plugins.themes.riarauniversity.auth.passwordHint"
+msgstr "Use at least 8 characters with a mix of letters and numbers."
+
+msgid "plugins.themes.riarauniversity.auth.hasAccount"
+msgstr "Already have an account?"
+
+msgid "plugins.themes.riarauniversity.auth.resetStep1"
+msgstr "Enter your registered email address"
+
+msgid "plugins.themes.riarauniversity.auth.resetStep2"
+msgstr "Check your inbox for a secure reset link"
+
+msgid "plugins.themes.riarauniversity.auth.resetStep3"
+msgstr "Choose a new password and sign in"
+
+msgid "plugins.themes.riarauniversity.auth.resetHelp"
+msgstr "We will email a secure link. The link expires after a short time for your security."
+
+msgid "plugins.themes.riarauniversity.auth.sendResetLink"
+msgstr "Send reset link"
+
+msgid "plugins.themes.riarauniversity.auth.trustLabel"
+msgstr "Security and trust"
+
+msgid "plugins.themes.riarauniversity.auth.trustSecure"
+msgstr "Secure connection"
+
+msgid "plugins.themes.riarauniversity.auth.trustUniversity"
+msgstr "Riara University"
+
+msgid "plugins.themes.riarauniversity.auth.trustPrivacy"
+msgstr "Privacy protected"
+
+msgid "plugins.themes.riarauniversity.auth.activateTitle"
+msgstr "Confirm your email"
+
+msgid "plugins.themes.riarauniversity.auth.activateText"
+msgstr "Activate your Riara University journal account to submit manuscripts and manage your author profile."
+
+msgid "plugins.themes.riarauniversity.auth.activateHighlight1"
+msgstr "Check your inbox for the activation link"
+
+msgid "plugins.themes.riarauniversity.auth.activateHighlight2"
+msgstr "One click to unlock your account"
+
+msgid "plugins.themes.riarauniversity.auth.activateHelp"
+msgstr "If you do not see the email within a few minutes, check your spam folder or request a new activation link from the sign-in page."
+
+msgid "plugins.themes.riarauniversity.auth.completeTitle"
+msgstr "Welcome aboard"
+
+msgid "plugins.themes.riarauniversity.auth.completeText"
+msgstr "Your account is ready. Choose what you would like to do next."
+
+msgid "plugins.themes.riarauniversity.auth.completeHighlight1"
+msgstr "Start a new manuscript submission"
+
+msgid "plugins.themes.riarauniversity.auth.completeHighlight2"
+msgstr "Complete your author profile"
+
+msgid "plugins.themes.riarauniversity.auth.completeHighlight3"
+msgstr "Browse the latest issue"
+
+msgid "plugins.themes.riarauniversity.announcements.kicker"
+msgstr "Journal news"
+
+msgid "plugins.themes.riarauniversity.search.emptyTitle"
+msgstr "No articles matched your search"
+
+msgid "plugins.themes.riarauniversity.search.emptyText"
+msgstr "Try different keywords, fewer filters, or browse the current issue and archives."
+
+msgid "plugins.themes.riarauniversity.galley.download"
+msgstr "Download"
+
+msgid "plugins.themes.riarauniversity.galley.view"
+msgstr "View"
+
+msgid "plugins.themes.riarauniversity.submissions.ctaTitle"
+msgstr "Ready to submit?"
+
+msgid "plugins.themes.riarauniversity.submissions.ctaText"
+msgstr "Start a new manuscript or review your existing submissions in the editorial dashboard."
+
+msgid "plugins.themes.riarauniversity.error.lead"
+msgstr "We could not complete that request. Use the link below to return to a safe page."
+
+msgid "plugins.themes.riarauniversity.error.kicker"
+msgstr "Something went wrong"
+
+msgid "plugins.themes.riarauniversity.nav.menu"
+msgstr "Menu"
+
+msgid "plugins.themes.riarauniversity.article.pages"
+msgstr "Pages"
+
+msgid "plugins.themes.riarauniversity.citation.title"
+msgstr "How to cite"
+
+msgid "plugins.themes.riarauniversity.citation.copy"
+msgstr "Copy citation"
+
+msgid "plugins.themes.riarauniversity.citation.copied"
+msgstr "Copied!"
+
+msgid "plugins.themes.riarauniversity.citation.hint"
+msgstr "APA-style reference. Verify against your style guide before publishing."
+
+msgid "plugins.themes.riarauniversity.issue.tocHeading"
+msgstr "Articles in this issue"
+
+msgid "plugins.themes.riarauniversity.issue.kicker"
+msgstr "Published issue"
+
+msgid "plugins.themes.riarauniversity.article.relatedHeading"
+msgstr "More from this issue"
+
+msgid "plugins.themes.riarauniversity.message.kicker"
+msgstr "Notice"
+
+msgid "plugins.themes.riarauniversity.message.lead"
+msgstr "Please review the message below."
+
+# ─── Core locale overrides (public-facing Riara branding) ───────────────────────
+
+msgid "common.software"
+msgstr "Riara University Publishing"
+
+msgid "about.aboutSoftware"
+msgstr "About Riara University Publishing"
+
+msgid "about.aboutThisPublishingSystem"
+msgstr "About Riara University scholarly publishing"
+
+msgid "about.aboutThisPublishingSystem.altText"
+msgstr "Riara University editorial and publishing process"
+
+msgid "about.aboutOJSJournal"
+msgstr "This journal is published on the Riara University scholarly publishing platform, operated by Riara University in Nairobi, Kenya. The platform supports peer review, open access publishing, and long-term preservation of research. For questions, please <a href=\"{$contactUrl}\">contact the journal</a>."
+
+msgid "about.aboutOJSSite"
+msgstr "This site is operated by Riara University to publish peer-reviewed scholarly research. For more information, visit <a href=\"https://riarauniversity.ac.ke\" rel=\"noopener noreferrer\">riarauniversity.ac.ke</a>."
+
+msgid "plugins.themes.riarauniversity.footer.copyright"
+msgstr "Riara University. All rights reserved."
+
+msgid "plugins.themes.riarauniversity.footer.publisherLink"
+msgstr "Riara University"
+
+msgid "plugins.themes.riarauniversity.platform.kicker"
+msgstr "Publishing at Riara"
+
+msgid "plugins.themes.riarauniversity.platform.title"
+msgstr "Riara University Publishing"
+
+msgid "plugins.themes.riarauniversity.platform.lead"
+msgstr "Riara University operates this platform to publish peer-reviewed research from our academic community and partners worldwide."
+
+msgid "plugins.themes.riarauniversity.platform.body"
+msgstr "The platform supports the full editorial workflow — from submission and double-blind review through to open access publication, indexing, and long-term preservation. It is maintained by Riara University in Nairobi, Kenya."

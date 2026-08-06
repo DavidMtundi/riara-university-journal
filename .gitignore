@@ -1,3 +1,31 @@
 .swp
 .sandbox
 older
+node_modules/
+test-results/
+playwright-report/
+.env
+backups/
+test-run.log
+tmp-*.html
+tmp-styles.css
+
+volumes/config/pkp.config.inc.php
+
+# Live database (use volumes/db-import/seed.sql.gz for CI)
+volumes/db/*
+!volumes/db/README
+
+# Submission files and runtime data
+volumes/private/*
+!volumes/private/.gitkeep
+!volumes/private/README
+
+# Public uploads (runtime)
+volumes/public/*
+!volumes/public/.gitkeep
+!volumes/public/README
+
+# Apache logs
+volumes/logs/*
+!volumes/logs/README

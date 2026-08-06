@@ -1,0 +1,32 @@
+# Optional scheduled backups overlay.
+# Usage:
+#   docker compose -f docker-compose.yml -f docker-compose.backup.yml --profile backup up -d
+#
+# Set BACKUP_CRON_SCHEDULE in .env (default: daily at 02:00).
+# Set BACKUP_REMOTE_DIR in .env to copy each stamp off the primary volume (NAS path, etc.).
+
+services:
+  backup-cron:
+    image: alpine:3.22
+    container_name: "pkp_backup_${COMPOSE_PROJECT_NAME:-ojs-riara}"
+    env_file:
+      - .env
+    environment:
+      BACKUP_CRON_SCHEDULE: "${BACKUP_CRON_SCHEDULE:-0 2 * * *}"
+    volumes:
+      - .:/workspace
+      - /var/run/docker.sock:/var/run/docker.sock
+    entrypoint: /bin/sh
+    command:
+      - -c
+      - |
+        set -eu
+        apk add --no-cache docker-cli bash gzip tar
+        SCHEDULE="$${BACKUP_CRON_SCHEDULE:-0 2 * * *}"
+        echo "$$SCHEDULE cd /workspace && /workspace/volumes/scripts/backup.sh >> /var/log/ojs-backup.log 2>&1" > /etc/crontabs/root
+        echo "Backup cron scheduled: $$SCHEDULE"
+        touch /var/log/ojs-backup.log
+        crond -f -l 8
+    restart: unless-stopped
+    profiles:
+      - backup
